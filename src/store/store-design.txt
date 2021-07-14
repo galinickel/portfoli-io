@@ -1,0 +1,10 @@
+items that will need a store value:
+
+#USERS
+loggedInUser
+
+#EDITOR
+activeTab (add by default, edit when clicking an item to edit)
+siteInEdit (the json that is currently being displayed)
+
+#WEBSITE

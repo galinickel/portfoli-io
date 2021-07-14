@@ -14,7 +14,7 @@ const Header = () => {
                     Navigation One
                 </Menu.Item>
             </Menu>
-            header
+            
         </div>
     );
 }
