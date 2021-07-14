@@ -3,7 +3,7 @@ import { Layout, Menu, Tabs } from 'antd';
 import { PlusCircleOutlined,EditOutlined } from '@ant-design/icons';
 
 // import { Link } from 'react-router-dom'
-
+import Display from '../cmps/editor/display.jsx'
 
 const Editor = () => {
     const { Content, Sider } = Layout;
@@ -34,7 +34,7 @@ const Editor = () => {
                                         <Menu.Item key="5">option5</Menu.Item>
                                         <Menu.Item key="6">option6</Menu.Item>
                                     </SubMenu>
-                                    <SubMenu key="Section" title="Section">
+                                    <SubMenu key="Section1" title="Section">
                                         <Menu.Item key="9">option9</Menu.Item>
                                         <Menu.Item key="10">option10</Menu.Item>
                                     </SubMenu>
@@ -42,7 +42,7 @@ const Editor = () => {
                                         <Menu.Item key="11">option9</Menu.Item>
                                         <Menu.Item key="12">option10</Menu.Item>
                                     </SubMenu>
-                                    <SubMenu key="Section" title="Section">
+                                    <SubMenu key="Section2" title="Section">
                                         <Menu.Item key="13">option9</Menu.Item>
                                         <Menu.Item key="14">option10</Menu.Item>
                                     </SubMenu>
@@ -67,6 +67,8 @@ const Editor = () => {
                     </Sider>
                     <Content>
                         <div className="content">
+                        <Display/>
+
                         </div>
                     </Content>
                 </Layout>

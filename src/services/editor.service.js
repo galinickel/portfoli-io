@@ -1,9 +1,12 @@
-// Common mistakes:
-// No need for another entity: Template, just use isPublic on the map
-// There is a thing about :style binding not reactive if not set in advanced
-// so many: xx: unset
-// avoid this polution by allowing edit of only specific properties  
-// NOW FROM THE TOP MAKE IT DROP THATS A WAP
+export const editorService = {
+    getCurrTemplate
+}
+
+async function getCurrTemplate(id){
+    if (!id) return dbJSON
+}
+
+
 
 var dbJSON = {
 	"_id": "5e28393890dd7201a06d4e44",
